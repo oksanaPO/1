@@ -1,0 +1,58 @@
+header{
+	background-color: red;
+}
+
+.container {
+	display: flex;
+	position: relative;
+	max-width: 1024px;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.logo {
+	font-family: CherrySwash;
+	font-size: 40px;
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+
+}
+
+header li a {
+	font-family: Myriad Pro;
+	font-size: 18px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 20px;
+	color: white;
+
+}
+header li a::after{
+content: '/';
+}
+
+header li:last-child a::after{
+display: none;
+}
+header li{
+	list-style: none;
+}
+.main_nav ul{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+body {
+	margin: 0;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+}
+#one {
+	background-image: url('img/sea.jpg');
+}
